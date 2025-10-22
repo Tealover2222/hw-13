@@ -18,6 +18,7 @@ header {
   background: var(--white);
   padding: 20px 0;
   border-bottom: 1px solid #ddd;
+  box-shadow: 10px 0px 0px var(--accent)
 }
 
 .container {
@@ -94,6 +95,7 @@ nav {
 .hero h1 {
   font-size: 36px;
   margin-bottom: 30px;
+  box-shadow: 10px
 }
 
 .btn {
@@ -138,6 +140,7 @@ nav {
   margin-bottom: 72px; 
   background: none;
   padding: 0;
+  box-shadow: 10px 0px 0px var(--accent)
 }
 .center-block {
   text-align: center;
@@ -159,6 +162,9 @@ nav {
   background-color: var(--bg-light);
   padding: 94px 0;
   text-align: center;
+}
+.section-title {
+  box-shadow: 10px 0px 0px var(--accent);
 }
 .team-cards-horizontal {
   display: flex;
@@ -199,12 +205,20 @@ nav {
 footer {
   background: var(--dark);
   color: var(--white);
-  text-align: center;
   padding: 40px 0;
 }
 
-footer .logo {
+footer .logo-container {
   color: var(--white);
+  margin-left: 100px;
+}
+.logo {
+  color: var(--white);
+}
+.logo-header {
+  color: var(--black);
+  text-decoration: none;
+  font-size: 26px;
 }
 
 footer p,
